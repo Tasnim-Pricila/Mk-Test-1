@@ -6,7 +6,7 @@ import fb from '../../images/fb.png';
 
 const Footer = () => {
     return (
-        <div className='grid grid-cols-4 p-20 justify-items-center'>
+        <div className='grid grid-cols-4 p-20 justify-items-center bg-slate-200'>
             <div>
                 <p className='text-purple-500 font-extrabold'>We are Social</p>
                 <p className='my-6'>Follow Us</p>
