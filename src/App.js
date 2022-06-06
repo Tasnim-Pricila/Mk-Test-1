@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
-    <div className="App bg-slate-100">
+    <div className="App bg-[#F2F2F2]">
       <Header></Header>
       <Banner></Banner>
       <Available></Available>

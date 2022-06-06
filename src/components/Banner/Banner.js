@@ -3,7 +3,7 @@ import artwork from '../../images/artwork.jpg'
 
 const Banner = () => {
     return (
-        <div className='grid grid-cols-2 px-12 items-center pt-8 '>
+        <div className='grid md:grid-cols-2 px-12 items-center pt-8 grid-cols-1 '>
             <div>
                 <h2 className='text-6xl mb-8 leading-[1.25]'>Influencers That Are Made To
                     Impress</h2>

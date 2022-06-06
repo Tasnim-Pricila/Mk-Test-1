@@ -16,7 +16,7 @@ const Header = () => {
             </div>
 
             <div className='flex justify-between items-center text-purple-700 sticky top-0 z-50'>
-                <div className={`flex md:flex-row md:gap-8 flex-col md:static duration-1000 absolute bg-[#1B1E1E] md:bg-transparent text-center uppercase items-center
+                <div className={`flex md:flex-row md:gap-8 flex-col md:static duration-1000 absolute bg-[#1B1E1E] md:bg-transparent text-center uppercase items-center font-semibold
                  ${menuIcon ? 'right-0 left-0 top-14 py-4 gap-2' : 'right-0 left-0 top-[-220px]'} `}
                 >
                     <NavLink to='/' className={({ isActive }) => (isActive ? "text-orange-600" : "")}> Home </NavLink>
@@ -33,9 +33,9 @@ const Header = () => {
                     {menuIcon ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
                 </div>
 
-                <div className='bg-white text-black py-4 px-8 rounded-full shadow-lg uppercase'>
-                    <button>Login</button>
-                    <button className="bg-orange-600 px-6 py-2 rounded-full ml-4 text-white shadow-lg" > Signup </button> 
+                <div className='bg-white text-black py-4 px-8 rounded-full shadow-lg '>
+                    <button className='uppercase font-semibold'>Login</button>
+                    <button className="bg-orange-600 px-6 py-2 rounded-full ml-4 text-white shadow-lg uppercase font-semibold" > Signup </button> 
                 </div>
             </div>
         </div>
