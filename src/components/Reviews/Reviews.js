@@ -24,10 +24,10 @@ const Reviews = () => {
     };
     return (
         <div>
-            <div className='md:px-36 my-16'>
+            <div className='md:px-36 my-16' data-aos="zoom-in" data-aos-offset="300"data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay="80">
                 <p className='text-2xl uppercase text-[#644F9C] text-center mb-20 font-semibold'>Clients Say About Us</p>
                 
-                <Slider {...settings} className='pb-12'>
+                <Slider {...settings} className='pb-12' >
                     <div className='flex review gap-12 justify-center items-center'>
                         <div>
                             <img src={photo} alt="" className='w-[700px] h-[150px]' />
